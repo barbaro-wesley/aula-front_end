@@ -72,6 +72,34 @@ calcula()
 console.log(name);*/
 
 // exercico 13
-let nome1 = prompt("informe seu nome:")
-let nome2= prompt("informe seu sobrenome")
-console.log("seja bem vindo ,",nome1, nome2)
+let numero = prompt("digite um numero");
+let numerointeiro= parseInt(numero);
+if (numero>=0){
+    console.log("é um numero inteiro")
+
+ }else{
+    console.log("não é um numero inteiro")
+ }
+
+/*exercicio 14
+
+    let nome1 = prompt("informe seu nome:")
+    let nome2= prompt("informe seu sobrenome")
+    console.log("seja bem vindo ,",nome1, nome2)
+*/
+//exercicio 15
+
+function calcula_desconto(){
+    let desconto = 0.1 ;
+    const compras = parseFloat(prompt("digite o valor total da compra"));
+    let verinteiro = parseInt(compras );
+    
+    if (compras <=0){
+        console.log("o desconto so sera aplicado a compras acima de R$ 1,00 ")
+    calcula_desconto()
+    }
+     let desct= compras * desconto
+     let total_compra = compras - desct
+     console.log("o valor da compra foi de :",total_compra,"  eo desconto foi de R$",desct)
+}
+calcula_desconto()
