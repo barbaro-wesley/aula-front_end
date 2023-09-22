@@ -1,4 +1,35 @@
 body{
-    background-color: black;
-    color: white
+    background-color: #decdc4;
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100%;
+    flex-direction: column;
+
+}
+.headerMain{
+background-color: #96c914;
+color:#fff;
+padding: 1rem;
+font-size: 20px;
+}
+
+.headerMain.logo{
+font-size: 2rem;
+}
+.mainContent{   
+align-items: center;
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+}
+.footerMain{
+background-color:#5147c0 ;
+color:#070707;
+padding: 1rem;
+font-size: 25px;
+}
+html{
+    font-size: 14px;
+    height: 100%;
 }

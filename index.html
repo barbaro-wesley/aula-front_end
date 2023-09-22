@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula </title>
-    <link rel="stylesheet" href="style.css">
+    <title>To do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div>
-        hello word js
-    </div>
-    <script src="aula.js"></script>
+<header class ="headerMain">
+<h1
+class = "logo">
+to do list
+</h1>
+</header>
+<main class="mainContent">
+<div class="Form-Vertical" id="frmTask" autocomplete="off">
+    <label for="txtTaskTitle"> titulo da task</label>
+    <input 
+    type="text"
+    name="txtTaskTitle"
+    id="txtTaskTitle"
+    placeholder="adicione o titulo da task"
+    minlength="5"
+    maxlength="60"
+    required
+    autofocus
+    >
+<label for="txtTaskDescription">descrição da task</label>
+<input type="txt" nome ="txtTaskDescription" id = "txtTaskDescription" placeholder="Adicione ">
+
+</div>
+    
+
+
+</main>
+
+<footer class="footerMain">
+    desenvolvido  por wesley barbaro
+</footer>
+<script src="assets/script.js"></script>
 </body>
 </html>
